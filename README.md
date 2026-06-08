@@ -9,6 +9,10 @@ A lightweight real-time cryptocurrency price viewer built with C++ and Qt 6. Fet
 - Manual refresh button + auto-refresh every 5 seconds
 - Sortable columns (click header to sort by symbol or price)
 
+## Screenshot
+
+<img src="assets/preview.png" width="300"/>
+
 ## Requirements
 
 - macOS (tested on macOS with Apple Silicon / Homebrew)
