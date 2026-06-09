@@ -27,7 +27,7 @@ A lightweight real-time cryptocurrency price viewer built with C++ and Qt 6. Fet
 brew install qt cmake
 
 # Clone and build
-git clone https://github.com/yourname/crypto-live.git
+git clone https://github.com/yashpatel-07/crypto-live.git
 cd crypto-live
 mkdir build && cd build
 cmake .. -DCMAKE_PREFIX_PATH=$(brew --prefix qt)
