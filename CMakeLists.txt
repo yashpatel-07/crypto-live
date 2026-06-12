@@ -4,12 +4,14 @@ project(crypto_live)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTORCC ON) 
 
 find_package(Qt6 REQUIRED COMPONENTS Core Widgets Network)
 
 add_executable(crypto_live
     src/main.cpp
     src/mainwindow.cpp
+    res.qrc
 )
 
 target_include_directories(crypto_live PRIVATE include)

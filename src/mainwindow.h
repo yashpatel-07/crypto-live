@@ -3,6 +3,7 @@
 #include <QTableWidget>
 #include <QPushButton>
 #include <QTimer>
+#include <QLabel>
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
 
@@ -19,8 +20,11 @@ private slots:
 private:
     QTableWidget *table;
     QPushButton *btnRefresh;
+    QLabel *lblLive;
+    QLabel *lblStatus;
     QTimer *timer;
     QNetworkAccessManager *manager;
 
     void populateTable(const QByteArray &data);
+    void applyStylesheet();
 };

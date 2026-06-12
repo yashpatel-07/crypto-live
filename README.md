@@ -11,7 +11,7 @@ A lightweight real-time cryptocurrency price viewer built with C++ and Qt 6. Fet
 
 ## Screenshot
 
-<img src="assets/preview.png" width="300"/>
+<img src="assets/preview1.png" width="300"/>
 
 ## Requirements
 

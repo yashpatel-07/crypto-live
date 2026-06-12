@@ -1,0 +1,95 @@
+QMainWindow, #centralWidget {
+    background: #0d0d0d;
+}
+#topBar {
+    background: #111111;
+    border-bottom: 1px solid #1e1e1e;
+}
+#lblTitle {
+    font-family: 'Inter 18pt', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #e0e0e0;
+}
+#lblLive {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: #4ade80;
+    background: #0d2016;
+    border: 1px solid #4ade80;
+    border-radius: 4px;
+    padding: 2px 7px;
+}
+#autoCheck {
+    font-family: 'Inter 18pt', sans-serif;
+    font-size: 12px;
+    color: #555;
+}
+#autoCheck::indicator {
+    width: 13px; height: 13px;
+    border-radius: 3px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+}
+#autoCheck::indicator:checked {
+    background: #3b82f6;
+    border: 1px solid #3b82f6;
+    image: none;
+}
+#btnRefresh {
+    font-family: 'Inter 18pt', sans-serif;
+    font-size: 12px;
+    color: #b8b8b8;
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+#btnRefresh:hover { background: #222; border-color: #383838; }
+#btnRefresh:pressed { background: #181818; }
+#cryptoTable {
+    background: #0d0d0d;
+    border: none;
+    outline: none;
+    font-family: 'Inter 18pt', sans-serif;
+    font-size: 13px;
+    color: #c8c8c8;
+    gridline-color: transparent;
+    selection-background-color: #1a1a1a;
+    selection-color: #e0e0e0;
+}
+QHeaderView::section {
+    background: #0d0d0d;
+    color: #484848;
+    font-family: 'Inter 18pt', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px solid #1e1e1e;
+    padding: 10px 18px 8px 18px;
+}
+QTableWidget::item {
+    border-bottom: 1px solid #161616;
+    padding: 10px 18px;
+    color: #c8c8c8;
+}
+QTableWidget::item:selected {
+    background: #1a1a1a;
+    color: #e8e8e8;
+}
+#statusBar {
+    background: #0d0d0d;
+    border-top: 1px solid #181818;
+}
+#lblStatus, #lblCount {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: #363636;
+}
+QScrollBar:vertical {
+    background: #111; width: 6px; border: none;
+}
+QScrollBar::handle:vertical {
+    background: #2a2a2a; border-radius: 3px; min-height: 20px;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }
